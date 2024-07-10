@@ -1,5 +1,7 @@
 python3 scripts/sample.py "一张瓢虫的照片，微距，变焦，高质量，电影，拿着一个牌子，写着“可图”" --compiler nexfort
 
+python3 scripts/sample.py "一张瓢虫的照片，微距，变焦，高质量，电影，拿着一个牌子，写着“可图”" --compiler oneflow
+
 <p align="left">
     English</a>&nbsp ｜ &nbsp<a href="README_CN.md">中文</a>&nbsp
 </p>

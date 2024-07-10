@@ -62,7 +62,6 @@ def infer(args):
     elif args.compiler == "oneflow":
         print("Oneflow backend is now active...")
         pipe.unet = oneflow_compile(pipe.unet)
-        # pipe.vae.decoder = oneflow_compile(pipe.vae.decoder)
     elif args.compiler == "nexfort":
         print("Nexfort backend is now active...")
         if args.quantize:
